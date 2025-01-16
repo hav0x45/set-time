@@ -1,6 +1,6 @@
 #!/bin/sh
-echo "Getting date with python script 'gettime.py'"
-currenttime=$(python gettime.py)
+echo "Getting date with python script 'get-time.py'"
+currenttime=$(python get-time.py)
 cuttime=$(echo $currenttime | cut -d. -f1)
 echo "The date is: $cuttime"
 echo "Setting date..."
