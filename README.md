@@ -1,7 +1,8 @@
-### A shell and python script for synchronized time for linux
+# A shell and python script for synchronized time for linux
 ## Dependencies: python-pip & ntplib
-# Usage:
+### Usage:
 `
 ./set-time.sh
 `
+
 That's it!
