@@ -8,4 +8,4 @@ date=$(sudo date -s"$cuttime")
 echo "The date is: $date"
 echo "Setting hwclock date..."
 sudo hwclock --systohc
-echo "Hardware clock date: $(sudo hwclock)"
+echo "Hardware clock date is: $(sudo hwclock)"

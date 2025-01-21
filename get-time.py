@@ -8,5 +8,5 @@ try:
     currenttime = time.strftime('%Y-%m-%d %H:%M', time.localtime(response.tx_time))
     print(currenttime)
 except:
-    print('Ei voitu synkronoida aikapalvelimen kanssa')
+    print('Could not synchronize with the time server.')
 
